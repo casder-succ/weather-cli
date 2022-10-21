@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Tool to get actual weather",
   "main": "index.js",
+  "bin": {
+    "weather": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +13,11 @@
     "type": "git",
     "url": "git+https://github.com/casder-succ/weather-cli.git"
   },
+  "keywords": [
+    "cli",
+    "weather",
+    "weather-cli"
+  ],
   "author": "casder-succ",
   "license": "ISC",
   "bugs": {
