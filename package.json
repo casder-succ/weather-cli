@@ -14,9 +14,6 @@
     "type": "git",
     "url": "git+https://github.com/casder-succ/weather-cli.git"
   },
-  "imports": {
-    "#src/*": "./*.js"
-  },
   "keywords": [
     "cli",
     "weather",
