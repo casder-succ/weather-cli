@@ -22,6 +22,7 @@
         "no-proto": "off",
         "consistent-return": "off",
         "import/no-extraneous-dependencies": "off",
+        "import/extensions": "off",
         "default-param-last": "warn",
         "padding-line-between-statements": ["error",
             { "blankLine": "always", "prev": "*", "next": "return" },

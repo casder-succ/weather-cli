@@ -1,1 +1,1 @@
-export { default as getArgs } from './getArgs';
+export { default as getArgs } from './getArgs.js';

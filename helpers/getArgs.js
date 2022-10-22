@@ -3,7 +3,7 @@ export default (args) => {
 
   args.forEach((value, index, array) => {
     if (value.charAt(0) === '-') {
-      if (array[index - 1] === value) {
+      if (array[array.length - 1] === value) {
         res[value.substring(1)] = true;
 
         return;
