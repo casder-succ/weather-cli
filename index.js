@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { getArgs } from './helpers/index.js';
+import { getArgs, saveToken } from './helpers/index.js';
 import { loggerService } from './services/index.js';
 
 const initCLI = () => {
@@ -7,6 +7,10 @@ const initCLI = () => {
 
   if (args.h) {
     loggerService.printHelp();
+  }
+
+  if (args.t) {
+    saveToken(args.t);
   }
 };
 
